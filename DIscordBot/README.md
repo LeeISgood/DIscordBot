@@ -17,7 +17,7 @@
 > suggest using `Python 3.6` and above / `discord.py 1.5` and above
 
 1. Download the file
-3. run `bot.py` 
+3. run `Main.py` 
 
 <br>
 
@@ -25,7 +25,7 @@
 ```
 / # Main
 ------------------------------------
-- bot.py # bot start
+- Main.py # bot start
 - example_setting.json # settings
 
 
