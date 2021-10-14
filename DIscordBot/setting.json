@@ -1,9 +1,9 @@
 {
-    "TOKEN": "ODczNTY3MjYzNzg0MDYyOTc3.YQ6S6Q.gHJjwD-875nDyUzISWFnNnSp9W8",
-    "Welcome_channel": "886429137978400829",
-    "Leave_channel": "886429150120923176",
+    "TOKEN": "",
+    "Welcome_channel": "",
+    "Leave_channel": "",
     "Prefix": ["&"],
-    "Owner_id": [852547642428489738],
-    "pic": ["C:\\Users\\65942\\Desktop\\ggbot\\.vscode\\pic\\ggg.gif", "C:\\Users\\65942\\Desktop\\ggbot\\.vscode\\pic\\giphy.gif"],
+    "Owner_id": [],
+    "pic": [""],
     "Valid_User": []
 }
