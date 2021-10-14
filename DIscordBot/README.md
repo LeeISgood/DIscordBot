@@ -1,55 +1,45 @@
-[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/Naereen/)
-[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
-
 [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-367/)
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
 
-## ⚡ Introduction 簡介
+## ⚡ Introduction 
 
-### **Discord Python Bot BackBone**
+### **Discord Python Bot**
 
-**Discord Pyhon Bot 骨架**
+**Discord Pyhon Bot**
 
-整體架構是參考並簡化改進先前於 Discord Hack Week 19 共同開發的 [Libereus](https://github.com/Tansc161/Libereus)
-
-旨在提供一個乾淨的基本骨架，快速的開始一隻新的機器人開發
-
-- For (初學者/開發者)
-- Cog 架構
-- Bot指令/類別/功能 分離
-- Error Handler 、 Logger 、 Gloable Function 、 Checker
+- For ppl who just learn python
+- Cog 
 
 <br>
 
-## 📥 Installation 安裝指南
-> 運行環境 建議 `Python 3.6` 以上 / `discord.py 1.5` 以上
+## 📥 Installation 
+> suggest using `Python 3.6` and above / `discord.py 1.5` and above
 
-1. 下載整個專案  
-2.  解壓後將 `example_setting.json` 重新命名為 `setting.json` ; 自行修改設定檔裡的資料  
-3. 運行 `bot.py` 即可
+1. Download the file
+3. run `bot.py` 
 
 <br>
 
-## 🔩 Folder structure 資料夾結構
+## 🔩 Folder structure
 ```
-/ # 根目錄
+/ # Main
 ------------------------------------
-- bot.py # bot 啟動主文件
-- example_setting.json # 設定檔
+- bot.py # bot start
+- example_setting.json # settings
 
 
-/cmds # 放置所有 Cog 指令
+/cmds # All cog commads
 ------------------------------------
-- main.py  #主要指令區
-- event.py # 所有 event 觸發性事件指令區
-- mod.py # 管理、控制類指令區
-- owner.py # 擁有者權限指令區
+- main.py  #Main
+- event.py # All event
+- mod.py # Admin
+- owner.py # Owner
 
 
-/core  #放置類別、核心通用功能
+/core  #Core
 ------------------------------------
-- classes.py # 主要類別區
-- check.py # 自定全域指令檢查器
-- error.py # 預設、自訂 錯誤管理器
+- classes.py # Main
+- check.py # Custom commads
+- error.py # Default
 ```
